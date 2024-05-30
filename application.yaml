@@ -18,3 +18,7 @@ management:
   sampling:
    probability: 1
 
+spring:
+  zipkin:
+    baseUrl: http://zipkin-svc:9411
+
